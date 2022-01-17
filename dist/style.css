@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  background-color: #b9adad;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50vw;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  background-color: #3c7ad8;
+  height: 90vh;
+}
+
+.project {
+  display: flex;
+  justify-content: center;
+  background-color: #ced7e4;
+  height: 90vh;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  background-color: #e5d691;
+  height: 90vh;
+}
