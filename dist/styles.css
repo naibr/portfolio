@@ -65,6 +65,13 @@ nav {
   color: #a9c7c7;
 }
 
+.projects1 div:hover {
+  background-color: #eaf3d5;
+  height: 30vh;
+  width: 30vh;
+  border-radius: 10%;
+}
+
 #nav-contact a {
   transition: all 0.3s ease 0s;
 }
