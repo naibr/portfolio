@@ -67,13 +67,6 @@ nav {
     color: rgb(169, 199, 199);
 }
 
-.projects1 div:hover {
-    background-color: rgb(234, 243, 213);
-    height: 30vh;
-    width: 30vh;
-    border-radius: 10%;
-}
-
 #nav-contact a {
     transition: all 0.3s ease 0s;
 }
@@ -160,6 +153,13 @@ p {
     height: 80vh;
 }
 
+.projects1 div:hover {
+    background-color: rgb(234, 243, 213);
+    height: 30vh;
+    width: 30vh;
+    border-radius: 10%;
+}
+
 .project {
     display: flex;
     flex-direction: column;
@@ -201,4 +201,8 @@ p {
     text-align: center;
     font-family: 'Urbanist', sans-serif;
 
+}
+
+.skills-logos img:hover {
+    background-color: rgb(243, 213, 213);
 }

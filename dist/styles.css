@@ -65,13 +65,6 @@ nav {
   color: #a9c7c7;
 }
 
-.projects1 div:hover {
-  background-color: #eaf3d5;
-  height: 30vh;
-  width: 30vh;
-  border-radius: 10%;
-}
-
 #nav-contact a {
   transition: all 0.3s ease 0s;
 }
@@ -156,6 +149,13 @@ p {
   height: 80vh;
 }
 
+.projects1 div:hover {
+  background-color: #eaf3d5;
+  height: 30vh;
+  width: 30vh;
+  border-radius: 10%;
+}
+
 .project {
   display: flex;
   flex-direction: column;
@@ -196,4 +196,8 @@ p {
   margin-left: 0px;
   text-align: center;
   font-family: "Urbanist", sans-serif;
+}
+
+.skills-logos img:hover {
+  background-color: #f3d5d5;
 }
