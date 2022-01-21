@@ -6,7 +6,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    background-color: rgba(136, 138, 121, 0.7);
+    background-color: rgba(136, 138, 121, 0.589);
     padding: 20px;
     font-family: 'Lato', sans-serif;
     color: rgb(51, 55, 61);
@@ -113,6 +113,7 @@ p {
     text-align: center;
     height: 90vh;
     background-color: rgb(228, 218, 206);
+    padding-bottom: 5%;
 }
 
 #about img {
@@ -131,6 +132,7 @@ p {
     justify-content: center;
     height: 100vh;
     background-color: rgb(231, 235, 240);
+    padding-bottom: 5%;
 }
 
 .projects-title {
@@ -173,9 +175,17 @@ p {
     justify-content: space-around;
     align-items: center;
     background-color: rgb(199, 199, 199);
+    padding-bottom: 20px;
 }
 
 .skills-logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact-logos {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -203,6 +213,6 @@ p {
 
 }
 
-.skills-logos img:hover {
+.contact-logos img:hover {
     background-color: rgb(243, 213, 213);
 }
