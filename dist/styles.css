@@ -181,11 +181,10 @@ p {
   flex-wrap: wrap;
 }
 
-.contact-logos {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  flex-wrap: wrap;
+.skills1 h2 {
+  margin-left: 0px;
+  text-align: center;
+  font-family: "Urbanist", sans-serif;
 }
 
 .logos {
@@ -202,12 +201,25 @@ p {
   background-color: #f0ede2;
 }
 
-.skills1 h2 {
-  margin-left: 0px;
-  text-align: center;
-  font-family: "Urbanist", sans-serif;
-}
-
 .contact-logos img:hover {
   background-color: #f3d5d5;
+}
+
+.logos2 img:hover {
+  background-color: #dbb780;
+}
+
+.logos3 img:hover {
+  background-color: #80db9b;
+}
+
+.logos4 img:hover {
+  background-color: #81bae0;
+}
+
+.contact-logos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }

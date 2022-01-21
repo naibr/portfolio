@@ -184,12 +184,11 @@ p {
     justify-content: space-around;
     flex-wrap: wrap;
 }
+.skills1 h2 {
+    margin-left: 0px;
+    text-align: center;
+    font-family: 'Urbanist', sans-serif;
 
-.contact-logos {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    flex-wrap: wrap;
 }
 
 .logos {
@@ -206,13 +205,25 @@ p {
     background-color: rgb(240, 237, 226);
 }
 
-.skills1 h2 {
-    margin-left: 0px;
-    text-align: center;
-    font-family: 'Urbanist', sans-serif;
-
-}
-
 .contact-logos img:hover {
     background-color: rgb(243, 213, 213);
+}
+
+.logos2 img:hover {
+    background-color: rgb(219, 183, 128);
+}
+
+.logos3 img:hover {
+    background-color: rgb(128, 219, 155);
+}
+
+.logos4 img:hover {
+    background-color: rgb(129, 186, 224);
+}
+
+.contact-logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
