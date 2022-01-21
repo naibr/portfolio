@@ -6,7 +6,7 @@
 nav {
   display: flex;
   justify-content: space-between;
-  background-color: #c9cfbc;
+  background-color: rgba(136, 138, 121, 0.7);
   padding: 20px;
   font-family: "Lato", sans-serif;
   color: #33373d;
