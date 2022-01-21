@@ -1,15 +1,15 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
-  background-color: rgba(136, 138, 121, 0.589);
+  background-color: rgba(60, 61, 52, 0.589);
   padding: 20px;
   font-family: "Lato", sans-serif;
-  color: #33373d;
+  color: #707680;
 }
 
 #nav-logo a {
@@ -152,9 +152,9 @@ p {
 }
 
 .projects1 div:hover {
-  background-color: #eaf3d5;
-  height: 30vh;
-  width: 30vh;
+  background-color: rgba(234, 243, 213, 0.712);
+  height: 25vh;
+  width: 25vh;
   border-radius: 10%;
 }
 
@@ -222,4 +222,9 @@ p {
   flex-direction: column;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+#contact p {
+  font-size: 15px;
+  padding-bottom: 20px;
 }
