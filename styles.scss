@@ -6,7 +6,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(201, 207, 188);
+    background-color: rgba(136, 138, 121, 0.7);
     padding: 20px;
     font-family: 'Lato', sans-serif;
     color: rgb(51, 55, 61);
@@ -42,6 +42,7 @@ nav {
 #nav-links a:visited {
     text-decoration: none;
     color: rgb(51, 55, 61);
+
 }
 
 #nav-links a:hover {
